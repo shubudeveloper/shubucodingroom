@@ -11,4 +11,3 @@ echo 'Enter name of branch'
 read branch
 
 git push origin $branch
-read
