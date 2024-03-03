@@ -1,64 +1,66 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 int main()
 {
     int i,j,k,r,c,a[10][10],b[10][10],sum[10][10],sub[10][10],mul[10][10];
 
-    printf("Enter the number of rows and columns of a square matrix:\n");
-    scanf("%d%d",&r,&c);
+    cout<<"Enter the number of rows and columns of a square matrix:"<<endl;
+    cin>>r>>c;
 
     if(r!=c)
     {
-        printf("Please enter equal number of rows and columns...");
+        cout<<"Please, enter the equal number of rows and columns"<<endl;
     }
     else
-    {
-        printf("Enter the elements of first matrix:\n");            //first matrix
+    {   
+        cout<<"Enter the elements of first matrix:"<<endl;          //first matrix
         {
             for(i=0;i<r;i++)
             {
                 for(j=0;j<c;j++)
                 {
-                    printf("Enter a%d%d elements:",i+1,j+1);
+                    cout<<"Enter a"<<i+1<<j+1<<" elements:";
                     {
-                        scanf("%d",&a[i][j]);
+                        cin>>a[i][j];
                     }
-                }
-            }
-            printf("The first matrix is as follows:\n");  
-            {
-                for(i=0;i<r;i++)
-                {
-                    for(j=0;j<c;j++)
-                    {
-                        printf("%d\t",a[i][j]);
-                    }
-                    printf("\n");
                 }
             }
         }
-
-        printf("Enter the elements of second matrix:\n");           //second matrix
+        cout<<"The first matrix is as follows:"<<endl;
         {
             for(i=0;i<r;i++)
             {
                 for(j=0;j<c;j++)
                 {
-                    printf("Enter b%d%d elements:",i+1,j+1);
+                    cout<<"\t"<<a[i][j];
+                }
+                cout<<endl;
+            }
+        }
+
+        cout<<"Enter the elements of second matrix:"<<endl;            //second matrix
+        {
+            for(i=0;i<r;i++)
+            {
+                for(j=0;j<c;j++)
+                {
+                    cout<<"Enter b"<<i+1<<j+1<<" elements:";
                     {
-                        scanf("%d",&b[i][j]);
+                        cin>>b[i][j];
                     }
                 }
             }
-            printf("The second matrix is as follows:\n");
+        }
+        cout<<"The second matrix is as follows:"<<endl;
+        {
+            for(i=0;i<r;i++)
             {
-                for(i=0;i<r;i++)
+                for(j=0;j<c;j++)
                 {
-                    for(j=0;j<c;j++)
-                    {
-                        printf("%d\t",b[i][j]);
-                    }
-                    printf("\n");
+                    cout<<"\t"<<b[i][j];
                 }
+                cout<<endl;
             }
         }
 
@@ -69,36 +71,36 @@ int main()
                 sum[i][j] = a[i][j] + b[i][j];
             }            
         }
-        printf("The sum of two matrix is as follows:\n");
+        cout<<"The sum of two matrix is as follows:"<<endl;
         {
             for(i=0;i<r;i++)
             {
                 for(j=0;j<c;j++)
                 {
-                    printf("%d\t",sum[i][j]);
+                    cout<<"\t"<<sum[i][j];
                 }
-                printf("\n");
+                cout<<endl;
             }
         }
 
         for(i=0;i<r;i++)                           //subtraction of two matrix
         {
-            for(j=0;j<c;j++)               
+            for(j=0;j<c;j++)
             {
                 sub[i][j] = a[i][j] - b[i][j];
-            }
+            }            
         }
-        printf("The subtraction of two matrix is as follows:\n");
+        cout<<"The subtraction of two matrix is as follows:"<<endl;
         {
             for(i=0;i<r;i++)
             {
                 for(j=0;j<c;j++)
                 {
-                    printf("%d\t",sub[i][j]);
+                    cout<<"\t"<<sub[i][j];
                 }
-                printf("\n");
+                cout<<endl;
             }
-        }
+        } 
 
         for(i=0;i<r;i++)                           //multiplication of two matrix
         {
@@ -111,17 +113,17 @@ int main()
                 }
             }
         }
-        printf("The multiplication of two matrix is as follows:\n");
+        cout<<"The multiplication of two matrix is as follows:"<<endl;
         {
             for(i=0;i<r;i++)
             {                    
                 for(j=0;j<c;j++)
                 {
-                    printf("%d\t",mul[i][j]);
+                    cout<<"\t"<<mul[i][j];
                 }
-                printf("\n");
+                cout<<endl;
             }
-        }
+        }       
     }
 }
 
