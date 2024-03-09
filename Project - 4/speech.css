@@ -41,12 +41,15 @@ button{
 
 .start:active{
     color:#90ee90;
+    border-bottom:5px solid #90ee90;
 }
 
 .stop:active{
     color:#ff0000;
+    border-bottom:5px solid #ff0000;
 }
 
 .speak:active{
     color:#ff69b4;
+    border-bottom:5px solid #ff69b4;
 }
