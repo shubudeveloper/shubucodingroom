@@ -33,7 +33,7 @@ int main()
             {
                 for(j=0;j<c;j++)
                 {
-                    cout<<"\t"<<a[i][j];
+                    cout<<a[i][j]<<"\t";
                 }
                 cout<<endl;
             }
@@ -58,7 +58,7 @@ int main()
             {
                 for(j=0;j<c;j++)
                 {
-                    cout<<"\t"<<b[i][j];
+                    cout<<b[i][j]<<"\t";
                 }
                 cout<<endl;
             }
@@ -77,7 +77,7 @@ int main()
             {
                 for(j=0;j<c;j++)
                 {
-                    cout<<"\t"<<sum[i][j];
+                    cout<<sum[i][j]<<"\t";
                 }
                 cout<<endl;
             }
@@ -96,7 +96,7 @@ int main()
             {
                 for(j=0;j<c;j++)
                 {
-                    cout<<"\t"<<sub[i][j];
+                    cout<<sub[i][j]<<"\t";
                 }
                 cout<<endl;
             }
@@ -119,7 +119,7 @@ int main()
             {                    
                 for(j=0;j<c;j++)
                 {
-                    cout<<"\t"<<mul[i][j];
+                    cout<<mul[i][j]<<"\t";
                 }
                 cout<<endl;
             }
