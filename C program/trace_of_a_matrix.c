@@ -49,4 +49,5 @@ Enter the element of a matrix:
 The matrix is as follows:
 1       2
 3       4
+The trace of a matrix is 5
 */
