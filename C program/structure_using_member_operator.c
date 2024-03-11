@@ -24,7 +24,7 @@ int main()
     printf("Enter your cgpa:");
     scanf("%f",&s1.cgpa);
 
-    printf("Displaying messagge:\n");
+    printf("Displaying message:\n");
     printf("NAME\t ROLL\t BRANCH\t CGPA\n");
     printf("%s\t %d\t %s\t %f\n",p->name,p->roll,p->branch,p->cgpa);
 }
@@ -36,7 +36,7 @@ Enter the name:Shubham
 Enter the roll_number:22447
 Enter your branch:CSE
 Enter your cgpa:7.57
-Displaying messagge:
+Displaying message:
 NAME     ROLL     BRANCH  CGPA
 Shubham  22447    CSE     7.570000
 */
