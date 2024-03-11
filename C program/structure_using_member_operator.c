@@ -5,7 +5,7 @@ int main()
     {
         char name[10];
         int roll;
-        char branch[10];
+        char branch[1];
         float cgpa;
     };
     struct student s1;
