@@ -30,7 +30,7 @@ Enter the value of a:30
 Enter the value of b:20
 Before swapping:
 a=30 and b=20
-1After swapping:
+After swapping:
 a=20 and b=30
 Swapping is done successfully...
 */
