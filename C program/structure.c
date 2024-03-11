@@ -4,9 +4,9 @@ int main()
     struct student
     {
         char name[10];
-        int roll;
-        char branch[1];
-        float cgpa;
+        char subject[10];
+        int marks;
+        char grade[5];
     };
     struct student s1;
     struct student *p;
@@ -15,28 +15,28 @@ int main()
     printf("Enter the name:");
     scanf("%s",&s1.name);
 
-    printf("Enter the roll_number:");
-    scanf("%d",&s1.roll);
+    printf("Enter your subject:");
+    scanf("%s",&s1.subject);
 
-    printf("Enter your branch:");
-    scanf("%s",&s1.branch);
+    printf("Enter your marks:");
+    scanf("%d",&s1.marks);
 
-    printf("Enter your cgpa:");
-    scanf("%f",&s1.cgpa);
+    printf("Enter your grade:");
+    scanf("%s",&s1.grade);
 
-    printf("Displaying messagge:\n");
-    printf("NAME\t ROLL\t BRANCH\t CGPA\n");
-    printf("%s\t %d\t %s\t %f\n",p->name,p->roll,p->branch,p->cgpa);
+    printf("Displaying message:\n");
+    printf("NAME\t SUBJECT\t MARKS\t GRADE\n");
+    printf("%s\t %s\t %d\t %s\n",(*p).name,(*p).subject,(*p).marks,(*p).grade);
 }
 
 
 /*
 ----------output----------
 Enter the name:Shubham
-Enter the roll_number:22447
-Enter your branch:CSE
-Enter your cgpa:7.57
-Displaying messagge:
-NAME     ROLL     BRANCH  CGPA
-Shubham  22447    CSE     7.570000
+Enter your subject:Chemistry
+Enter your marks:89
+Enter your grade:A
+Displaying message:
+NAME     SUBJECT     MARKS   GRADE
+Shubham  Chemistry   89      A
 */
