@@ -38,6 +38,7 @@ int main()
                 cout<<endl;
             }
         }
+        
         for(i=0;i<(r=c);i++)
         {
             trace=trace+a[i][i];
