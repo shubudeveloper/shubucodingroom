@@ -1,6 +1,8 @@
 {
-    "files.associations": {
-        "iostream": "cpp"
+    "files.associations": 
+    {
+        "iostream": "cpp",
+        "typeinfo": "c"
     },
     "liveServer.settings.port": 5501
 }
