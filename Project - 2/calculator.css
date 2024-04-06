@@ -5,7 +5,7 @@
 }
 
 body{
-    background:url(img.jpg);
+    background-color:#33ffd8;
     background-size:cover;
     margin:0;
     padding:0;
@@ -106,4 +106,12 @@ form input.operator{
 
 .butt-2:active{
     background:#008000;
+}
+
+@media (max-width:494px){
+    .snow{
+        height:400vh;
+    }
+
+
 }
