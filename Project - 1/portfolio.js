@@ -58,7 +58,7 @@ function sendEmail(){
     {
         if(message=='OK')
         {
-            swal("Successfull", "Ypour data is received successfully", "success");
+            swal("Successfull", "Your data is received successfully", "success");
         }
         else
         {

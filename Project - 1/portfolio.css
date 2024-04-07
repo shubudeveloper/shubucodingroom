@@ -102,13 +102,12 @@ a:hover{
     background:linear-gradient(90deg,#0000ff,#ff0000,#d5d513);
     color:transparent;
     background-clip:text;
-    padding:40px;
+    padding:20px;
 }
 
 .name>.para-1,.para-2{
     font-size:25px;
-    margin-top:20px;
-    padding:30px;
+    padding:20px;
 }
 
 .para-1{
