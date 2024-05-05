@@ -1,0 +1,270 @@
+html{
+    background-color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.header{
+    font-size: 40px;
+    color:brown;
+    font-weight: bold;
+}
+.nebula{
+    margin-left: 45%;
+    margin-top: -100px;
+}
+.option,footer{
+    background-color: burlywood;
+    width: 1900px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left: -5px;
+    position: sticky;
+    top: -4px;
+
+}
+.list{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+.pages1,.pages2,.pages3,.pages4,.pages5{
+    padding-left: 25px;
+}
+.image{
+    margin-left: -9px;
+    border-radius: 25px;
+}
+.bottombtn{
+    
+    font-size: 35px;
+    color: aliceblue;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+    height: 80px;
+    width: 200px;
+}
+.bottombtn:hover{
+    background-color: white;
+    border: 3px solid white;
+    color:black;
+
+}
+.bottombtn:active{
+    background-color: brown;
+    border: 3px solid white;
+    color:white;
+    
+
+}
+.btndiv{
+    margin-left: 45%;
+    margin-top: -250px;
+}
+
+.notice{
+   color:brown;
+   border: 2px solid brown;
+   height:300px;
+   width: 700px;
+   border-radius: 15px;
+   margin-left: 1150px;
+   margin-top: -275px;
+   background-color: aliceblue;
+    text-decoration:underline;
+    font-weight: bold;
+    padding: 15px;
+
+}
+#bottom{
+    padding-top:50px;
+}
+
+.intro{
+    width:600px;
+    height: 300px;
+    border: 2px solid brown;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    color:brown;
+    margin-left: 25px;
+    background-color: aliceblue;
+}
+.intro:hover,.notice:hover{
+    background-color: whitesmoke;
+    
+}
+.flag{
+    margin-top: -280px;
+    padding-left: 650px;
+    margin-left: 50px;
+}
+.ind{
+    border-radius: 10px;
+}
+
+.contact-section{                    /*Shubham's work*/
+    display: flex; 
+    margin-top:20px;              
+    height:110vh;
+}
+
+form h1{
+    padding:30px;
+    font-size:40px;
+    color:#dc143c;
+    font-weight:bold;
+    letter-spacing:1px;
+    overflow:hidden;
+    white-space:nowrap;
+    animation:typing 6s steps(40,end) infinite;
+}
+
+@keyframes typing{
+    from{
+        width:0
+    }
+    to{
+        width:100%
+    }
+}
+
+form{
+    width:50%;
+}
+
+form>input,textarea,button{
+    width:80%;
+    font-size:20px;
+    display:flex;
+    padding:35px;
+    margin-top:25px;
+    margin-left:30px;
+    outline:0;
+    border-radius:10px;
+    border:2px solid #ff7f50;
+}
+
+form>textarea{
+    resize:none;
+}
+
+form textarea::-webkit-scrollbar{
+    width:10px;
+}
+
+form textarea::-webkit-scrollbar-track{
+    background-color:#ff7f50;
+    border-radius:50px;
+}
+
+form textarea::-webkit-scrollbar-thumb{
+    cursor:pointer;
+    background-color:#fff000;
+    border-radius:50px;
+}
+
+form button{
+    padding:25px;
+    cursor:pointer;
+    width:20%;
+    background:#ff7f50;
+    color:#ffffff;
+    border-radius:10px;
+}
+form button:active{
+    background:#87cefa;
+    color:#008000;
+}
+
+.image{
+    padding:200px 200px;
+}
+
+.image>img{
+    width:550px;
+}
+
+footer{
+    height: 400px;
+    background-color: #ff7f50;
+    padding-top: 10px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.gettop{
+    width: 1900px;
+    height:80px;
+    background-color: #fec1c1;
+    border-radius: 20px;
+    border:0px;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding:25px 850px;
+}
+
+.top{
+    margin-top:-35px;
+    margin-left:-30px;
+}
+
+.contacthrs{
+    margin-left: -1850px;
+    margin-top: 95px;
+    color:white;
+}
+.address{
+    margin-left: -400px;
+    margin-top: 165px;
+    color:white;
+}
+
+.map{
+    margin-top: 110px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
+.social{
+    height:20vh;
+    margin-top: 125px;
+    margin-left: 45px;
+}
+
+.social a{
+    font-size: 40px;
+    color:#fff;
+    padding-left:25px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.credit{
+    height:5px;
+    color:#ffffff;
+    margin-top: 350px;
+    margin-left:-500px;
+}
+
+.quote{
+    margin-top:110px;
+    margin-left: 165px;
+    height:150px;
+    width:400px;
+    border-radius: 20px;
+    border:3px solid white;
+    padding:10px;
+    color:white;
+    
+}
+
+
+
+/*Suhani Start your css style from here, don't use the classes used above
+
