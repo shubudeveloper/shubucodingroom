@@ -329,10 +329,6 @@ ul li a{
         flex-direction:column;
     }
 
-    .main,.about-header,.skill-section{
-        width:142%;
-    }
-
     .my-skills>div{
         margin-left:-70%;
     }
@@ -380,7 +376,6 @@ ul li a{
 
     .introduction>.para-1{
         animation:none;
-        width:120%;
     }
 
     .introduction .para-2{
