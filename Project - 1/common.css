@@ -26,8 +26,8 @@ body{
     border-top-right-radius:50px;
     border-bottom-right-radius:50px;
     overflow-x:hidden; /* Disable horizontal scroll */
-    padding-top:5%; /* Place content 60px from the top */
-    transition:0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    padding-top:5%;
+    transition:0.5s;
   }
   
   /* The sidepanel links */
