@@ -6,18 +6,40 @@
 }
 
 html{
-    background-color:#ffffff;
+    background-color:#fff;
     width:100%;
 }
 
-/*Preloader*/
-#loader{
-    background: #ffffff url(loader1.gif) no-repeat center center;
-    background-size:10%;
-    height:120vh;
-    width:100%;
-    z-index:100;
-    position:fixed;
+@keyframes rotate1{
+
+    0%{
+        transform:rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100%{
+        transform:rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+
+}
+
+@keyframes rotate2{
+
+    0%{
+        transform:rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100%{
+        transform:rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+
+}
+
+@keyframes rotate3{
+
+    0%{
+        transform:rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100%{
+        transform:rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
 }
 
 li{

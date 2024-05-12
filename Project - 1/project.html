@@ -40,8 +40,18 @@
 
 
         <script>
-           
 
+            document.addEventListener('contextmenu', event => event.preventDefault());
+            const togglebtn = document.querySelector('.toggle')
+            const togglebtnicon = document.querySelector('.toggle i')
+            const dropdownmenu = document.querySelector('.dropdown_menu')
+
+            togglebtn.onclick = function ()
+            {
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+            }
+            
         </script>
     </body>
 </html>
