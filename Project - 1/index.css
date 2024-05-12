@@ -232,8 +232,8 @@ footer{
     color:#fff;
     padding:100px 0 30px;
     font-size:15px;
-    border-top-left-radius:50px;
-    border-top-right-radius:50px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
 }
 
 .row{
