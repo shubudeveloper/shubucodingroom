@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="about.css" text="html/css">
-        <link rel="stylesheet" href="common.css" text="html/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>About Me</title>
-    </head>
-    <body class="sticky">
-        <div class="header-section">
-            <div id="mySidepanel" class="sidepanel">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="project.html">Project</a>
-                <a href="contact.html">Contact</a>
-              </div>
-              
-              <button class="openbtn" onclick="openNav()">&#9776;</button>
-        </div>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="about.css" type="text/css">
+            <link rel="stylesheet" href="common.css" type="text/css">
+            <title>Portfolio | About Page</title>
+        </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="index.html">SHUBHAM KUMAR</a></div>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="Project.html">Projects</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                        
+                    <a href="./documents/Resume.pdf" class="action_btn" download>Download Resume</a>
+        
+                    <div class="toggle" id="toggle">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
 
+                <div class="dropdown_menu" id="dropdown_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="./documents/Resume.pdf" class="action_btn" download>Download Resume</a></li>
+                </div>
+            </div>
+        </header>
+
+        <section>
         <div class="about-header">
             <h1>About Me</h1>
         </div>
@@ -45,36 +62,38 @@
         </div>
 
         <div class="skill-section">
+            <br>
             <div class="my-skills"> 
                <h1>My Skills</h1>
-               <div>
-                  <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">HTML</a></h3>
-                  <span class="bar"><span class="html"></span></span>
-               </div>
-
-               <div>
-                  <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">CSS</a></h3>
-                  <span class="bar"><span class="css"></span></span>
-               </div>
-
-               <div>
-                  <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">JAVA SCRIPT</a></h3>
-                  <span class="bar"><span class="java-script"></span></span>
-               </div>
-
-               <div>
-                  <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">C</a></h3>
-                  <span class="bar"><span class="c"></span></span>
-               </div>
-               
-               <div>
-                  <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">C++</a></h3>
-                  <span class="bar"><span class="c-plus-plus"></span></span>
-               </div>  
             </div>
+            <div>
+                <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">HTML</a></h3>
+                <span class="bar"><span class="html"></span></span>
+            </div>
+
+            <div>
+                <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">CSS</a></h3>
+                <span class="bar"><span class="css"></span></span>
+            </div>
+
+            <div>
+                <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">JAVA SCRIPT</a></h3>
+                <span class="bar"><span class="java-script"></span></span>
+            </div>
+
+            <div>
+                <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">C</a></h3>
+                <span class="bar"><span class="c"></span></span>
+            </div>
+               
+            <div>
+                <h3><a href="https://www.w3schools.com" target="_blank" style="text-decoration:none;">C++</a></h3>
+                <span class="bar"><span class="c-plus-plus"></span></span>
+            </div>   
 
             <div class="about-col">
                 <h1>About Me</h1>
+                <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi optio modi, beatae corporis sequi mollitia earum reiciendis minima nemo tempore obcaecati laboriosam debitis quas molestias, aut vero quaerat quam ea?</p>
                 
                 <div class="tab-titles">
@@ -102,7 +121,9 @@
                 </div>
             </div>
         </div>
+        </section>
 
+        
         <footer>
             <div class="row">
                 <div class="col">
@@ -119,8 +140,8 @@
                 <div class="col">
                     <h2>SOCIAL<div class="underline"><span></span></div></h2>
                     <ul>
-                        <li><a href="https://www.facebook.com/share/4kfyidBwpUEtCeb6/?mibextid=qi2Omg">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/shubhamm__007?igsh=cnNiNWVjYTZwaDhm">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/share/4kfyidBwpUEtCeb6/?mibextid=qi2Omghttps://www.facebook.com/share/4kfyidBwpUEtCeb6/?mibextid=qi2Omg">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/shubhamofficial2364?igsh=dWx2eTNmY3Y0NzNu">Instagram</a></li>
                         <li><a href="https://www.youtube.com">Youtube</a></li>
                         <li><a href="https://www.linkedin.com/in/shubham-kumar-39650b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></li>
                         <li><a href="https://www.twitter.com">Twitter</a></li>
@@ -128,10 +149,10 @@
                 </div>
 
                 <div class="col">
-                    <h2>LEARNING PLATFORMS<div class="underline"><span></span></div></h2>
+                    <h2 style="white-space:nowrap;">LEARNING PLATFORMS<div class="underline"><span></span></div></h2>
                     <ul>
                         <li><a href="https://www.udemy.com">Udemy</a></li>
-                        <li><a href="https://www.instagram.com/shubhamofficial2364?igsh=dWx2eTNmY3Y0NzNu">Coursera</a></li>
+                        <li><a href="https://www.coursera.com">Coursera</a></li>
                         <li><a href="https://www.khamacademy.com">Khan Academy</a></li>
                         <li><a href="https://www.edX.com">edX</a></li>
                         <li><a href="https://www.codeacademy.com">Code Academy</a></li>
@@ -144,14 +165,25 @@
                         <a href="https://www.facebook.com/share/4kfyidBwpUEtCeb6/?mibextid=qi2Omg" target="_blank"><i class="fa fa-facebook"></i></a>   
                         <a href="https://www.instagram.com/shubhamofficial2364?igsh=dWx2eTNmY3Y0NzNu" target="_blank"><i class="fa fa-instagram"></i></a>   
                         <a href="https://www.linkedin.com/in/shubham-kumar-39650b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>    
-                        <a href="https://www.youtube.com/@NebulaCoders2024" target="_blank"> <i class="fa fa-youtube-play"></i></a>                          
+                        <a href="https://www.youtube.com/@NebulaCoders2024" target="_blank"> <i class="fa fa-youtube-play"></i></a>                          </div>
                     </div>
                 </div>
             </div>
         </footer>
 
-        <script src="common.js">
-            
+        <script>
+
+            document.addEventListener('contextmenu', event => event.preventDefault());
+            const togglebtn = document.querySelector('.toggle')
+            const togglebtnicon = document.querySelector('.toggle i')
+            const dropdownmenu = document.querySelector('.dropdown_menu')
+
+            togglebtn.onclick = function ()
+            {
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+            }
+
             var tablinks = document.getElementsByClassName("tab-links");
             var tabcontents = document.getElementsByClassName("tab-contents");
 
