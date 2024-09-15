@@ -22,7 +22,7 @@ int main()
 
 
 /*
-----------output----------
+----------output---------
 Enter the value of a:
 2.0
 Enter the value of b:
