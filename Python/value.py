@@ -18,3 +18,13 @@ b : 6
 sum : 9
 
 '''
+
+name = input("Enter your name:")
+print("Welcome",name)
+
+'''
+----------output----------
+Enter your name:Shubham 
+Welcome Shubham
+
+'''

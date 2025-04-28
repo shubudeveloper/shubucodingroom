@@ -1,0 +1,113 @@
+.my-skills h2{
+    padding:60px 80px;
+    font-size:30px;
+    color:#0000ff;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+.my-skills .skills{
+    justify-content:center;
+    background:#f5f5f5;
+    padding:30px;
+    border-radius:100px;
+    margin-top:30px;
+    box-shadow:0 30px 80px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-skills .skills:hover{
+    transform:translateY(-10px); /* Lift the box on hover */
+    box-shadow:0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.skills h3{
+    font-size:24px;
+    color:#000;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+.skills ul{
+    list-style:none;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills ul li{
+    background:#fff;
+    padding:10px 20px;
+    border-radius:25px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size:16px;
+    color: #333;
+    transition:all 0.3s ease;
+}
+
+.skills ul li:hover{
+    transform:translateY(-3px);
+    background:#ff7f50;
+    color:#fff;
+    box-shadow:0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.underline-1{
+    width:6%;
+    height:5px;
+    background:#fff;
+    border-radius:3px;
+    position:absolute;
+    top:1145px;
+    overflow:hidden;
+}
+
+.underline-1 span{
+    width:15px;
+    height:100%;
+    background:linear-gradient(to right, #00bfff, #1e90ff);
+    border-radius:3px;
+    position:absolute;
+    left:10px;
+    animation:moving1 3s infinite;
+}
+
+@keyframes moving1{
+    0%{
+        left:-20px;
+    }
+    100%{
+        left:100%;
+    }
+}
+
+/* Responsive Device */
+@media (max-width:768px){
+    .my-skills h2{
+        padding:30px 40px;
+    }
+
+    .my-skills .skills{
+        padding:20px;
+        margin:30px;
+        border-radius:10px;
+    }
+
+    .my-skills .skills h3{
+        font-size:20px;
+        margin:10px;
+    }
+
+    .my-skills .skills ul li{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:start;
+        font-size:14px;
+        padding:5px 10px;
+    }
+
+    .underline-1{
+        display:none;
+    }
+}

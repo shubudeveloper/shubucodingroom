@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width:5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color:#ff7f50;
+    border-radius:50px;
+}
+
+body::-webkit-scrollbar-thumb{
+    cursor:pointer;
+    background-color:#ffffff;
+    border-radius:50px;
+}
+
+
+/* navbar section */
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 30px;
+    background-color:#333;
+    color:#fff;
+    position:fixed;
+    top:0;
+    z-index:1000;
+}
+
+.navbar .logo a{
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+
+.nav-links li a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 10px;
+    transition:background-color 0.3s;
+}
+
+.nav-links li a:hover{
+    background-color:#555;
+    border-radius:5px;
+}
+
+.toggle{
+    display:none;
+    cursor:pointer;
+}
+
+.toggle i{
+    font-size:20px;
+    color:#fff;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu{
+    display:none; /* Hidden by default */
+    flex-direction:column;
+    padding:10px;
+    position:fixed;
+    top:60px; /* Adjust based on your navbar height */
+    right:20px;
+    background-color:#333;
+    border-radius:8px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index:1000;
+}
+
+.dropdown-menu.active{
+    display: block; /* Show when active */
+}
+
+.dropdown-menu ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.dropdown-menu ul li{
+    border-bottom:1px solid #444;
+}
+
+.dropdown-menu ul li:last-child{
+    border-bottom:none;
+}
+
+.dropdown-menu ul li a{
+    display:block;
+    padding:10px 20px;
+    color:#fff;
+    text-decoration:none;
+    transition:background-color 0.3s ease;
+}
+
+.dropdown-menu ul li a:hover{
+    background-color:#555;
+    color:#ff7f50;
+}
+
+.action_btn{
+    font-weight:bold;
+    color:#ff7f50;
+}
+
+.action_btn:hover{
+    color:#fff;
+}
+/* navbar section */
+
+
+
+
+/* Main Header Section */
+.main-content .main-header{
+    background:linear-gradient(to right, #ff7f50, #ff4500); /* Gradient background */
+    color:#fff;
+    padding:100px 30px;
+    text-align:center;
+}
+
+.main-content .main-header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.main-content .main-header .card{
+    border: 5px solid#fff;
+    border-radius:50%;
+    overflow:hidden;
+    width:150px;
+    height:150px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-content .main-header .card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.main-content .main-header .home h1{
+    font-size:40px;
+    font-weight:bold;
+    margin:10px 0;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-content .main-header .home p{
+    font-size:20px;
+    margin:10px 0;
+    color:#f0f0f0;
+}
+/* Main Header Section */
+
+
+
+
+/* Footer Section */
+footer{
+    background-color:#333;
+    color:#fff;
+    text-align:center;
+    margin-top:40px;
+    padding:20px 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    font-size:15px;
+    position:relative;
+    bottom:0;
+    width:100%;
+    box-shadow:0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p{
+    margin:0; 
+    line-height:1.5;
+}
+/* Footer Section */
+
+
+/* Responsive Device */
+@media (max-width:768px){
+    .navbar .logo a{
+        font-size:18px; /* Adjust logo font size */
+        padding:10px 10px;
+    }
+
+    .nav-links{
+        display:none; /* Hide the nav links by default */
+        flex-direction:column; /* Stack links vertically */
+        width:100%; /* Full width */
+        background-color:#333; /* Match navbar background */
+        padding:10px 0;
+        border-radius:8px;
+    }
+
+    .toggle{
+        display:block; /* Show the toggle button */
+        align-self:flex-end; /* Align toggle to the right */
+    }
+
+    .toggle i{
+        font-size:24px; /* Increase icon size */
+    }
+
+    /* Dropdown Menu */
+    .dropdown-menu {
+        width:100%; /* Full width for dropdown */
+        right:0; /* Align to the right */
+        top:50px; /* Adjust based on navbar height */
+    }
+
+    .dropdown-menu ul li a{
+        padding:10px 15px; /* Add padding for touch-friendly links */
+        font-size:16px; /* Adjust font size */
+    }
+
+    /* Main Header Section */
+    .main-content .main-header{
+        padding:100px 20px; /* Reduce padding for smaller screens */
+    }
+
+    .main-content .main-header .card{
+        width:150px; /* Smaller profile image */
+        height:150px;
+    }
+
+    .main-content .main-header .home h1{
+        font-size:28px; /* Adjust heading size */
+    }
+
+    .main-content .main-header .home p{
+        font-size:16px; /* Adjust paragraph size */
+    }
+
+    /* Footer */
+    footer{
+        font-size:14px; /* Adjust footer text size */
+        padding:15px 10px; /* Reduce padding */
+    }
+}
+
+/* Extra Small Screens (max-width: 480px) */
+@media(max-width: 480px){
+    .navbar{
+        padding:15px; /* Reduce padding */
+    }
+
+    .navbar .logo a{
+        font-size:16px; /* Smaller logo font size */
+    }
+
+    .nav-links li a{
+        font-size:14px; /* Smaller font size for links */
+    }
+
+    .main-content .main-header .card{
+        width:100px; /* Smaller profile image */
+        height:100px;
+    }
+
+    .main-content .main-header .home h1{
+        font-size:24px; /* Smaller heading size */
+    }
+
+    .main-content .main-header .home p{
+        font-size:14px; /* Smaller paragraph size */
+    }
+
+    footer{
+        font-size:12px; /* Smaller footer text size */
+    }
+}

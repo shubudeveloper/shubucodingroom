@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="./images/Shubham.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="./css/portfolio.css" type="text/css">
+        <link rel="stylesheet" href="./css/about.css" type="text/css">
+        <link rel="stylesheet" href="./css/skill.css" type="text/css">
+        <link rel="stylesheet" href="./css/contact.css" type="text/css">
+        <title>Portfolio | Shubham Kumar</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="portfolio.html">SHUBHAM KUMAR</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" class="scroll-button" data-target="aboutSection">About</a></li>
+                    <li><a href="#" class="scroll-button" data-target="skillSection">Skills</a></li>
+                    <li><a href="certificate.html">Certificates</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#" class="scroll-button" data-target="contactSection">Contact</a></li>
+                    <li><a href="./documents/Resume.pdf" class="action_btn" download>Resume</a></li>
+                </ul>
+                <div class="toggle" id="toggle">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <div class="dropdown-menu" id="dropdown_menu">
+                <ul>
+                    <li><a href="#" class="scroll-button" data-target="aboutSection">About Me</a></li>
+                    <li><a href="#" class="scroll-button" data-target="skillSection">Skills</a></li>
+                    <li><a href="certificate.html">Certificates</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="#" class="scroll-button" data-target="contactSection">Contact</a></li>
+                    <li><a href="./documents/Resume.pdf" class="action_btn" download>Resume</a></li>
+                </ul>
+            </div>
+        </header>
+    
+        <main class="main-content">
+            <section class="main-header">
+                <div  class="card">
+                    <img src="./images/Shubham.jpg" alt="Shubham" style="width:100%">
+                </div>
+                <div class="home">
+                    <h1>Shubham Kumar</h1>
+                    <p>Frontend Web Developer</p>
+                </div>
+            </section>
+        
+            <section class="about-me" id="aboutSection">
+                <h2>About me<div class="underline"><span></span></div></h2>
+                <div class="about-section">
+                    <p>I'm <strong>Shubham Kumar</strong>, a passionate Frontend Web Developer currently pursuing my undergraduate studies at B.P. Mandal College of Engineering. I have a knowledge in frontend Web development using HTML5, CSS3, and JavaScript.</p>
+                </div>
+            </section>
+        
+            <section class="my-skills" id="skillSection">
+                <h2>Skills<div class="underline-1"><span></span></div></h2>
+                <div class="box">
+                    <div class="skills">
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Hindi</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+            </section>
+        
+            <section class="my-contact" id="contactSection">
+                <h2>Contact Me<div class="underline-2"><span></span></div></h2>
+                <div class="container">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                        <input type="hidden" name="access_key" value="57fb8b43-227e-4ae2-97bf-5d334d8a2bd8">
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <input type="phonenumber" name="Phone Number" placeholder="Your Phone Number" class="contact-inputs" required>
+                        <input type="hidden" name="subject" value='${name} Sent You a message'>
+                        <textarea name="message" placeholder="Write your message here..." class="contact-inputs" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
+        
+        </main>
+    
+        <footer>
+            <p>
+                © 2025 Shubham Kumar | All rights reserved.
+            </p>
+        </footer>
+    
+        <script src="common.js"></script>
+        <script>
+            // Automatic scroll functionality for multiple buttons
+            document.querySelectorAll('.scroll-button').forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const targetId = event.target.getAttribute('data-target'); // Get the target section ID
+                    const targetSection = document.getElementById(targetId); // Find the target section
+                
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth', // Smooth scrolling effect
+                            block: 'start' // Align to the top of the section
+                        });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
