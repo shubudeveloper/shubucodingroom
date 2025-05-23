@@ -265,6 +265,7 @@ footer p{
         font-size:18px;
         padding:10px 10px;
     }
+
     .nav-links{
         display:none;
         flex-direction:column;
@@ -273,10 +274,12 @@ footer p{
         padding:10px 0;
         border-radius:8px;
     }
+
     .toggle{
         display:block;
         align-self:flex-end; 
     }
+
     .toggle i{
         font-size:24px;
     }
@@ -288,6 +291,7 @@ footer p{
         right:0;
         top:50px;
     }
+    
     .dropdown-menu ul li a{
         padding:10px 15px;
         font-size:16px;

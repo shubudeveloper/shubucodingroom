@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .toggle{
-    display:block;
+    display:none;
     cursor:pointer;
 }
 
@@ -266,11 +266,7 @@ footer p{
 }
 
 @media(max-width:768px){
-    .nav-links{
-        display:none;
-    }
-
-    .dropdown-menu {
+    .dropdown-menu{
         width:100%; /* Full width for dropdown */
         right:0; /* Align to the right */
         top:50px; /* Adjust based on navbar height */
@@ -280,10 +276,12 @@ footer p{
         padding:10px 15px; /* Add padding for touch-friendly links */
         font-size:16px; /* Adjust font size */
     }
+
     .navbar .logo a{
         font-size:18px; /* Adjust logo font size */
         padding:10px 10px;
     }
+
     .nav-links{
         display:none; /* Hide the nav links by default */
         flex-direction:column; /* Stack links vertically */
@@ -292,6 +290,7 @@ footer p{
         padding:10px 0;
         border-radius:8px;
     }
+
     .toggle{
         display:block; /* Show the toggle button */
         align-self:flex-end; /* Align toggle to the right */
