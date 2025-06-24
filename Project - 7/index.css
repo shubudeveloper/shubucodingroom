@@ -1,0 +1,303 @@
+/* General reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-quiz-card;
+    font-style: italic;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #778899;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #778899;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb{
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+
+
+
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    opacity:0.5;
+    padding: 15px 40px;
+    color: #ffffff;
+    position: relative;
+    top:0;
+    z-index:1000;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.nav-links ul li a:hover{
+    color: #00bcd4;
+}
+
+/* Toggle Button */
+.toggle{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Dropdown Menu (Mobile) */
+.dropdown-menu{
+    display: none;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown-menu ul li{
+    margin: 10px 0;
+}
+
+.dropdown-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.dropdown-menu ul li a:hover{
+    color: #00bcd4;
+}
+
+
+
+
+.main-content .section-1{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.main-content .section-1 .para-1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #2f14e3;
+}
+
+.main-content .section-1 .para-2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-content .section-2 .para-3{
+   font-size:20px;
+   margin: 20px 0 0 20px;
+   text-align: start;
+}
+
+hr{
+    width: 80%;
+    height:20px;
+    margin: 20px auto;
+    border-radius: 50px;
+    background-color: #faebd7;
+}
+
+
+
+
+
+.quiz-section .quiz-heading{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    color: #503bd6
+}
+
+.quiz-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.quiz-card{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+}
+
+.quiz-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-card h3{
+    font-size: 25px;
+    color: #f18a2f;
+    margin-bottom: 15px;
+}
+
+.quiz-card img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.quiz-card button{
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.quiz-card .btn:hover {
+    background:#e5673c;
+}
+
+footer{
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size:15px;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p{
+    margin: 0; 
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design
+@media (max-width: 768px) {
+    .nav-links ul {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .dropdown-menu.active {
+        display: flex;
+    }
+} */

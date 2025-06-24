@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="quiz-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Test Portal</title>
+</head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Mock Test Portal</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="progress.html">Progress</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="toggle" id="toggle">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown-menu" id="dropdown_menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="progress.html">Progress</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section class="section-1">
+                <p class="para-1">Welcome to CS quiz portal</p>
+                <p class="para-2">A platform for giving a mock test.</p>
+            </section>
+
+            <section class="section-2">
+                <p class="para-3">This quiz portal is specially developed for a computer science student. On this portal there will be a several questions from different subjects. The main motive of this portal is to provide a platform for the student to prepare for their exams. They can give a mock test and check their performance. They can also see their progress and improve their skills.</p>
+            </section>
+            <hr>
+
+            <section class="quiz-section">
+                <h2 class="quiz-heading">**Available Quiz**</h2>
+                <br><br>
+                <div class="quiz-container">
+                    <div class="quiz-card">
+                        <h3>Operating System</h3>
+                        <img src="os.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Data Structure</h3>
+                            <img src="dsa.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Artificial Intelligence</h3>
+                            <img src="ai.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Software Engineering</h3>
+                            <img src="se.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Computer Network</h3>
+                            <img src="cn.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Compiler Design</h3>
+                            <img src="cd.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                        <div class="quiz-card">
+                            <h3>Programming Language</h3>
+                            <img src="pl.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div><div class="quiz-card">
+                            <h3>Databasse Management System</h3>
+                            <img src="dbms.jpeg" alt="Quiz">
+                            <button onclick="showConfirmation('operating_system.html')">Go to quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                © 2025 Shubham Kumar | All rights reserved.
+            </p>
+        </footer>
+
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
