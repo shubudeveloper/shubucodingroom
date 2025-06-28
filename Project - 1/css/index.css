@@ -10,6 +10,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-track{
+    width:100%;
     background-color:#ff7f50;
     border-radius:50px;
 }
@@ -263,7 +264,7 @@ footer p{
 /* Extra Small Screens (max-width: 480px) */
 @media(max-width: 480px){
     .navbar{
-        padding:15px; /* Reduce padding */
+        padding:20px; /* Reduce padding */
     }
 
     .navbar .logo a{

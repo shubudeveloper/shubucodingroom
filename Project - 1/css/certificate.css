@@ -320,3 +320,9 @@ footer p{
         bottom:0;
     }
 }
+
+@media(max-width: 480px){
+    .certificate-section h2{
+        margin:20px 0 0 0;
+    }   
+}
