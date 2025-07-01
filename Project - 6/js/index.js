@@ -2,7 +2,7 @@ function showConfirmation(nextPage)
 {
     Swal.fire({
         title: 'Welcome',
-        text: 'Take youe quiz',
+        text: 'Take your quiz',
         showCancelButton: true,
         confirmButtonText: 'OK',
         cancelButtonText: 'Later'
