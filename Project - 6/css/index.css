@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-quiz-card;
+    box-sizing: border-box;
     font-style: italic;
 }
 
@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb{
     padding: 15px 40px;
     color: #ffffff;
     position: relative;
-    top:0;
+    top: 0;
     z-index:1000;
 }
 
@@ -228,76 +228,18 @@ footer p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive Design
-@media (max-width: 768px) {
-    .nav-links ul {
+@media(max-width: 768px){
+    .nav-links{
         display: none;
+        flex-direction:column;
     }
 
-    .toggle {
+    .toggle{
         display: block;
+        align-self:flex-end;
     }
 
-    .dropdown-menu.active {
+    .dropdown-menu.active{
         display: flex;
     }
-} */
+}

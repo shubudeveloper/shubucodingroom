@@ -14,65 +14,75 @@
         <div id="timer">Time Left: <span id="time">60</span> seconds</div>
         <br>
         <div class="quiz">
-            <div class="question" data-answer="b">
-                <p>1. What is the capital of France?</p>
-                <label class="option"><input type="radio" name="q1" value="a"> Berlin</label>
-                <label class="option"><input type="radio" name="q1" value="b"> Paris</label>
-                <label class="option"><input type="radio" name="q1" value="c"> Rome</label>
+            <div class="question" data-answer="a">
+                <p>1. What is a compiler?</p>
+                <label class="option"><input type="radio" name="q1" value="a">system program that converts instructions to machine language</label>
+                <label class="option"><input type="radio" name="q1" value="b">system program that converts machine language to high-level language</label>
+                <label class="option"><input type="radio" name="q1" value="c">system program that converts machine language to high-level language</label>
+                <label class="option"><input type="radio" name="q1" value="d">none of these</label>
+            </div>
+            <div class="question" data-answer="d">
+                <p>2. Which of the following is a stage of compiler design?</p>
+                <label class="option"><input type="radio" name="q2" value="a">Semantic analysis</label>
+                <label class="option"><input type="radio" name="q2" value="b">Intermediate code generator</label>
+                <label class="option"><input type="radio" name="q2" value="c">Code generator</label>
+                <label class="option"><input type="radio" name="q2" value="d">All of these</label>
+            </div>
+            <div class="question" data-answer="d">
+                <p>3. What is the use of a symbol table in compiler design?</p>
+                <label class="option"><input type="radio" name="q3" value="a">Finding name’s scope</label>
+                <label class="option"><input type="radio" name="q3" value="b">Type checking</label>
+                <label class="option"><input type="radio" name="q3" value="c">Keeping all of the names of all entities in one place</label>
+                <label class="option"><input type="radio" name="q3" value="d">All of these</label>
             </div>
             <div class="question" data-answer="a">
-                <p>2. What is 5 + 3?</p>
-                <label class="option"><input type="radio" name="q2" value="a"> 8</label>
-                <label class="option"><input type="radio" name="q2" value="b"> 10</label>
-                <label class="option"><input type="radio" name="q2" value="c"> 7</label>
+                <p>4. Which of the following error can a compiler check?</p>
+                <label class="option"><input type="radio" name="q4" value="a">Syntax Error</label>
+                <label class="option"><input type="radio" name="q4" value="b">Logical ErrorS</label>
+                <label class="option"><input type="radio" name="q4" value="c">Both Logical and Syntax Error</label>
+                <label class="option"><input type="radio" name="q4" value="d">Compiler cannot check errors</label>
+            </div>
+            <div class="question" data-answer="d">
+                <p>5. A programmer, writes a program to multiply two numbers instead of dividing them by mistake, how can this error be detected?</p>
+                <label class="option"><input type="radio" name="q5" value="a">Compiler or interpreter</label>
+                <label class="option"><input type="radio" name="q5" value="b">Compiler only</label>
+                <label class="option"><input type="radio" name="q5" value="c">Interpreter only</label>
+                <label class="option"><input type="radio" name="q5" value="d">None of these</label>
+            </div>
+            <div class="question" data-answer="a">
+                <p>6. Which of the following is known as a compiler for a high-level language that runs on one machine and produces code for a different machine?</p>
+                <label class="option"><input type="radio" name="q6" value="a">Cross compiler</label>
+                <label class="option"><input type="radio" name="q6" value="b">Multipass compiler</label>
+                <label class="option"><input type="radio" name="q6" value="c">Optimizing compiler</label>
+                <label class="option"><input type="radio" name="q6" value="d">One pass compiler</label>
+            </div>
+            <div class="question" data-answer="b">
+                <p>7. Who is responsible for the creation of the symbol table?</p>
+                <label class="option"><input type="radio" name="q7" value="a">Assembler</label>
+                <label class="option"><input type="radio" name="q7" value="b">Compiler</label>
+                <label class="option"><input type="radio" name="q7" value="c">Interpreter</label>
+                <label class="option"><input type="radio" name="q7" value="d">All of these</label>
+            </div>
+            <div class="question" data-answer="a">
+                <p>8. Which of the following phase of the compiler is Syntax Analysis?</p>
+                <label class="option"><input type="radio" name="q8" value="a">Second</label>
+                <label class="option"><input type="radio" name="q8" value="b">Third</label>
+                <label class="option"><input type="radio" name="q8" value="c">First</label>
+                <label class="option"><input type="radio" name="q8" value="d">All of these</label>
             </div>
             <div class="question" data-answer="c">
-                <p>3. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q3" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q3" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q3" value="c"> Python</label>
+                <p>9. Which of the following concept of FSA is used in the compiler?</p>
+                <label class="option"><input type="radio" name="q9" value="a">Code optimization</label>
+                <label class="option"><input type="radio" name="q9" value="b">Code generation</label>
+                <label class="option"><input type="radio" name="q9" value="c">Lexical analysis</label>
+                <label class="option"><input type="radio" name="q9" value="d">Parser</label>
             </div>
-            <div class="question" data-answer="c">
-                <p>4. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q4" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q4" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q4" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>5. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q5" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q5" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q5" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>6. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q6" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q6" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q6" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>7. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q7" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q7" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q7" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>8. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q8" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q8" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q8" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>9. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q9" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q9" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q9" value="c"> Python</label>
-            </div>
-            <div class="question" data-answer="c">
-                <p>10. Which is a programming language?</p>
-                <label class="option"><input type="radio" name="q10" value="a"> HTML</label>
-                <label class="option"><input type="radio" name="q10" value="b"> CSS</label>
-                <label class="option"><input type="radio" name="q10" value="c"> Python</label>
+            <div class="question" data-answer="b">
+                <p>10. What is CFG?</p>
+                <label class="option"><input type="radio" name="q10" value="a">Regular Expression</label>
+                <label class="option"><input type="radio" name="q10" value="b">Compiler</label>
+                <label class="option"><input type="radio" name="q10" value="c">Language expression</label>
+                <label class="option"><input type="radio" name="q10" value="d">All of these</label>
             </div>
         </div>
         <button id="submitBtn" onclick="submitQuiz()">Submit</button>

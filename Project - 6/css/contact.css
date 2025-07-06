@@ -237,3 +237,23 @@ footer p{
     margin: 0; 
     line-height: 1.5;
 }
+
+
+
+
+
+@media(max-width: 768px){
+    .nav-links{
+        display: none;
+        flex-direction:column;
+    }
+
+    .toggle{
+        display: block;
+        align-self:flex-end;
+    }
+
+    .dropdown-menu.active{
+        display: flex;
+    }
+}
