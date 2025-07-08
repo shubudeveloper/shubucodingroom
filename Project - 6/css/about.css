@@ -170,6 +170,7 @@ body::-webkit-scrollbar-thumb{
 
 .icon-container a {
     font-size: 28px;
+    margin: 30px 0 0 0;
     color: #333;
     transition: transform 0.3s ease, color 0.3s ease;
 }
