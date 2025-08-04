@@ -12,5 +12,6 @@ values
 (2, "Chemistry", 89, "First"),
 (3, "Human Resource Development & Organizational Behaviour", 77, "Fourth"),
 (4, "Technical Writing", 73, "Third"),
-(5, "Programming for Problem Solving", "53", "First");
+(5, "Programming for Problem Solving", 53, "First");
 select *from student_marks;
+select subjects,semester from student_marks;

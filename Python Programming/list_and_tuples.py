@@ -14,9 +14,9 @@ print(movies)
 list = [1, 2, 1]
 
 copy_list = list.copy()
-copy_list.reverse()
+copy_list_reverse = copy_list[::-1]
 
-if(copy_list == list):
+if(copy_list_reverse == list):
     print("List is palindrome.")
 else:
     print("List is not palindrome.")
