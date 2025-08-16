@@ -6,7 +6,7 @@ int main()
  
     while(a < 10)
     {
-        a = (a / 12) + 1;
+        a = a + 1;
         a += b;
     }
     printf("%d", a);

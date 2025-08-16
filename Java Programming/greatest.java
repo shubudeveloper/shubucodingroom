@@ -1,0 +1,19 @@
+public class greatest
+{
+    public static void main(String[] args) 
+    {
+        int a = 10, b = 40, c = 30;
+        if(a>b && a>c)
+        {
+            System.out.println("Greatest number is " + a);
+        }
+        else if(b>a && b>c)
+        {
+            System.out.println("Greatest number is " + b);
+        }
+        else
+        {
+            System.out.println("Greatest number is " + c);
+        }
+    } 
+}
