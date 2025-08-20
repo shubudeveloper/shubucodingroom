@@ -12,3 +12,12 @@ public class division{
         }  
     }
 }
+
+
+
+
+
+/*
+--------------------output--------------------
+Number is 480 which is divisible by both 3 and 4.
+*/

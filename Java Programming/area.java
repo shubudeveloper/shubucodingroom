@@ -8,3 +8,11 @@ public class area
         System.out.println("The area of triangle is " +area +" square meter");   
     }
 }
+
+
+
+
+/*
+--------------------output--------------------
+The area of triangle is 9.0 square meter
+*/

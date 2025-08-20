@@ -11,3 +11,14 @@ public class swap
         System.out.println("After swapping: a = " + a + ", b = " + b);
     }
 }
+
+
+
+
+
+/* 
+--------------------output--------------------
+Before swapping: a = 10, b = 40
+After swapping: a = 40, b = 10
+
+*/

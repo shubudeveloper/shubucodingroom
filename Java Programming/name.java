@@ -6,3 +6,13 @@ public class name
         System.out.println("B.Tech in Computer Science");
     }
 }
+
+
+
+
+
+/*
+--------------------output--------------------
+Shubham Kumar
+B. Tech in Computer Science
+*/

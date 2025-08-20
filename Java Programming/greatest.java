@@ -17,3 +17,12 @@ public class greatest
         }
     } 
 }
+
+
+
+
+
+/*
+--------------------output--------------------
+Greatest namber is 40
+*/

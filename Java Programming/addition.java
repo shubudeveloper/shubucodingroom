@@ -8,3 +8,11 @@ public class addition
         System.out.println("The sum of " + a + " and " + b + " is: " +c);
     }
 }
+
+
+
+
+/*
+--------------------output--------------------
+The sum of 81 and 77 is: 185
+*/

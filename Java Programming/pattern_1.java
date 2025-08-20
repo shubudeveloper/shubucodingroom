@@ -1,4 +1,4 @@
-public class pattern
+public class pattern_1
 {
     public static void main(String[] args)
     {
@@ -13,3 +13,17 @@ public class pattern
         }
     }
 }
+
+
+
+
+
+/*
+--------------------output--------------------
+*
+*       *
+*       *       *
+*       *       *       *
+*       *       *       *       *
+*       *       *       *       *       *
+*/

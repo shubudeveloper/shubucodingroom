@@ -13,3 +13,11 @@ public class even_sum
         System.out.print("Sum = " + sum);
     }
 }
+
+
+
+
+/*
+--------------------output--------------------
+Sum = 2550
+*/

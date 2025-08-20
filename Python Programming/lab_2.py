@@ -8,7 +8,7 @@ vowel = "aeiouAEIOU"
 if my_char in vowel and my_char in my_string:
     print("Valid vowel found")
 else:
-    print("Ivalid")
+    print("Invalid")
 
 
 
