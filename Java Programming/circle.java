@@ -5,6 +5,7 @@ public class circle
         double radius = 7.5;
         double area = Math.PI * Math.pow(radius,2);
         double circumference = 2* Math.PI * radius;
+        
         System.out.println("Area of circle = " + area);
         System.out.println("Circumference of a circle = " + circumference);
     }

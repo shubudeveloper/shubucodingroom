@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class even_or_odd
 { 
-    public static void main(String[] arg)
+    public static void main(String[] args)
     {
         Scanner num = new Scanner(System.in);
 

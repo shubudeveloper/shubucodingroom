@@ -5,7 +5,7 @@ public class addition
         int a = 81;
         int b = 77;
         int c = a + b;
-        System.out.println("The sum of " + a + " and " + b + " is: " +c);
+        System.out.println("The sum of " + a + " and " + b + " is: " + c);
     }
 }
 

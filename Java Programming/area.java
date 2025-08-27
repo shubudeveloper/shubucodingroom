@@ -5,7 +5,7 @@ public class area
         float base = 3.0f;
         float height = 6.0f;
         float area = (base*height)/2;
-        System.out.println("The area of triangle is " +area +" square meter");   
+        System.out.println("The area of triangle is " + area + " square meter");   
     }
 }
 

@@ -6,6 +6,7 @@ public class array
         int sum = 0;
 
         System.out.println("The elements of array are: ");
+        
         for(int i=0; i<10; i++)
         {
             System.out.println(a[i]);
