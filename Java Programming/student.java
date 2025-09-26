@@ -6,8 +6,8 @@ public class student
         int age = 22;
         String branch = "Computer Science and Engineering";
         System.out.println("Name = " + name);
-        System.out.println("Age = " +age);
-        System.out.println("Branch = " +branch);
+        System.out.println("Age = " + age);
+        System.out.println("Branch = " + branch);
         System.out.println(name.length());
         System.out.println(name.charAt(0));
     }
