@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class matrix_1 {
-    public static void main(String[] args) {
+public class matrix_1
+{
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
 
         // Input matrix size
@@ -16,8 +18,10 @@ public class matrix_1 {
 
         // Input first matrix
         System.out.println("Enter elements of first matrix:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++) 
+        {
+            for (int j = 0; j < cols; j++) 
+            {
                 System.out.print("a[" + i + "][" + j + "] = ");
                 a[i][j] = sc.nextInt();
             }
@@ -25,40 +29,50 @@ public class matrix_1 {
 
         // Input second matrix
         System.out.println("Enter elements of second matrix:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
                 System.out.print("b[" + i + "][" + j + "] = ");
                 b[i][j] = sc.nextInt();
             }
         }
 
         // Matrix addition
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
                 sum[i][j] = a[i][j] + b[i][j];
             }
         }
 
         // Print result
         System.out.println("Sum of the two matrices:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
                 System.out.print(sum[i][j] + "\t");
             }
             System.out.println();
         }
 
         // Matrix subtraction
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++) 
+        {
+            for (int j = 0; j < cols; j++) 
+            {
                 sum[i][j] = a[i][j] - b[i][j];
             }
         }
         
         // Print result
         System.out.println("Difference of the two matrices:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++) 
+            {
                 System.out.print(sum[i][j] + "\t");
             }
             System.out.println();
